@@ -42,11 +42,6 @@ div#navbar {
 	margin: 10px 0;
 }
 
-div.container {
-	width: 95%;
-	padding: 0;
-}
-
 div.tile-row, div.contact-row, div.footer-row, div.nav-row {
 	margin: 0 5%;
 }
@@ -64,6 +59,7 @@ div.col-lg-4 {
 
 div.contact-row {
 	margin-top: 20px;
+	margin-bottom: 80px;
 }
 
 div#form-column  {
@@ -148,6 +144,10 @@ div#footer {
 #logo-footer {
 	height: 40px;
 	width: auto;
+}
+
+nav.nav .fa {
+	color: #8A8A8A;
 }
 
 .fa-phone {
