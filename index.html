@@ -107,7 +107,7 @@
 		</div>
 		</div>
 		<!-- 2 rows of tiles  -->
-		
+
 		  <div class="row tile-row">
 		  	<!-- <div class="container"> -->
 			  	<div class="col-lg-4">
@@ -162,11 +162,13 @@
 				  	<p> phone. 303-406-3740</p>
 				  	<p>email. martstudio@gmail.com</p>
 				  	<p>Or, fill out this form:</p>
-				  	 <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Your Name">
-				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
-				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-				    <button id="send-button" type="submit" class="btn">Send</button>
+            <form action="https://formspree.io/your@email.com" method="POST">
+  				  	<input type="text" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Your Name">
+  				    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+  				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  				    <textarea type="text" name="message"class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+  				    <button id="send-button" onclick="confirmMessage()" type="submit" class="btn">Send</button>
+            </form>
 				  </div>
 				</form>
 			</div>
@@ -207,6 +209,11 @@
 			</div>
 		</div>
 	</div>
-	
+  <script>
+    function confirmMessage() {
+      alert("Message is sent!")
+    }
+  </script>
+
 </body>
 </html>
