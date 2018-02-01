@@ -152,30 +152,46 @@ nav.nav .fa {
 
 .fa-phone {
 	color: #08a7a7;
+  border: 2px solid #08a7a7;
+  border-radius: 3px;
+  padding: 2px 5px;
 }
 
 .fa-map-marker {
 	color: #de0101;
+  border: 2px solid #de0101;
+  border-radius: 3px;
+  padding: 2px 9px;
 }
 
 .fa-at {
 	color: #0adc55;
+  border: 2px solid #0adc55;
+  border-radius: 3px;
+  padding: 1px 4px;
 }
 
-.fa-facebook-square {
+.fa-facebook {
 	color: #1baff5;
+  border: 2px solid  #1baff5;
+  border-radius: 3px;
+  padding: 4px 4px 0 13px;
 }
 
 .fa-instagram {
 	color: #d0c10d;
+  border: 2px solid #d0c10d;
+  border-radius: 3px;
+  padding: 2px 4px;
 }
 
 #instagram-icon {
-	padding-right: 20px;
+	padding: 0 20px 0 0;
+  border: none;
 }
 
 .contact-icon {
-	padding-right: 50px;
+	margin-right: 50px;
 }
 
 div.footer-row {
@@ -188,15 +204,3 @@ div.footer-row {
 	margin-top: 10px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

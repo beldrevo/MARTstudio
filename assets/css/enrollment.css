@@ -41,7 +41,6 @@ div#navbar {
 }
 
 div.enr-row {
-  justify-content: center;
   color: black;
   background-color: white;
   justify-content: center;
@@ -49,9 +48,9 @@ div.enr-row {
   padding: 0 5%;
 }
 
-div.enr-row img {
-  width: auto;
-  height: 300px;
+div.enr-row h2 {
+  padding: 20px 0;
+  color: #ab0487;
 }
 
 a.carousel-control-next, a.carousel-control-prev  {
@@ -115,15 +114,17 @@ div.tile-row, div.contact-row, div.footer-row {
 div.col-lg-12 {
 	margin-bottom: 20px;
 	padding: 0;
+  display: flex;
   flex-direction: row;
-  display: inline-flex;
+
 }
 
 div.col-lg-4 {
-	padding: 0;
-	padding-left: 5px;
-	padding-bottom: 5px;
-	float: left;
+	padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #06a0b9;
 }
 
 .tile {
